@@ -1,4 +1,4 @@
-module Grid where
+module Canway.Grid where
 
 import Data.Char
 import Data.List

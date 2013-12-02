@@ -1,8 +1,8 @@
-module Canvas where
+module Canway.Canvas where
 
+import Canway.Grid
 import Control.Concurrent
 import Graphics.Blank
-import Grid
 
 type X = Float
 type XOffset = Float

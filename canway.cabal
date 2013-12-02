@@ -1,0 +1,15 @@
+Name: Canway
+Version: 0.1
+Description: Conway's Game of Life using blank-canvas
+License: BSD3
+Author: Ryan Scott
+Build-Type: Simple
+Cabal-Version: >=1.2
+
+Library
+    Build-Depends: base >= 3 && < 5,
+                   blank-canvas >= 0.2.3.1,
+                   vector >= 0.10.0.1
+    Exposed-modules:
+        Canway.Canvas
+        Canway.Grid
